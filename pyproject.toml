@@ -1,13 +1,17 @@
 [tool.poetry]
 name = "loadfanet"
 version = "0.1.0"
-description = ""
+description = "Load get data service Netdata API"
 authors = ["Vadim V"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.95.2"
+pydantic = "^1.10.8"
+aiohttp = "^3.8.4"
+uvicorn = "^0.22.0"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
